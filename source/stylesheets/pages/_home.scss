@@ -52,6 +52,19 @@
   width: 55%;
 }
 
+.lakepath {
+  .section-content {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/lake_background.png');
+  background-position: center;
+  }
+}
+
+.city-house {
+  .section-content {
+    background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
+  }
+}
+
 .events.main-section {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
 }

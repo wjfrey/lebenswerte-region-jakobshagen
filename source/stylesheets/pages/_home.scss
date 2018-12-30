@@ -18,6 +18,7 @@
 
 .section-content {
   background-repeat: no-repeat;
+  background-size: 100%;
   h2 {
     color: #B77745;
   }
@@ -34,13 +35,20 @@
 }
 
 .content-flex-item {
-  width: 50%;
+  width: 45%;
+}
+
+.image-div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  width: 55%;
 }
 
 .lakepath-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165680/verein-jakobshagen/main-pictures/lakepath.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+}
+.city-image-div {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165681/verein-jakobshagen/main-pictures/city.png');
 }

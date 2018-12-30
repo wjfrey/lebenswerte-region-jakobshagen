@@ -15,3 +15,17 @@
     font-size: 16px;
   }
 }
+
+.section-content {
+  background-repeat: no-repeat;
+  background-position: right top;
+  h2 {
+    color: #B77745;
+  }
+}
+
+.main-section {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}

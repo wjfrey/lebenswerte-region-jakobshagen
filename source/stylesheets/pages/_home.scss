@@ -18,7 +18,6 @@
 
 .section-content {
   background-repeat: no-repeat;
-  background-position: right top;
   h2 {
     color: #B77745;
   }
@@ -28,4 +27,20 @@
   display: flex;
   align-items: top;
   justify-content: space-between;
+}
+
+.thin-section {
+  padding: 100px 100px 0;
+}
+
+.content-flex-item {
+  width: 50%;
+}
+
+.lakepath-image-div {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165680/verein-jakobshagen/main-pictures/lakepath.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }

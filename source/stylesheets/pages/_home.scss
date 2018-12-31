@@ -34,12 +34,13 @@ h5 {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 
 .contact {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546260140/verein-jakobshagen/rectangle-elements/querlement_bottom_large.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-top: 250px;
   padding-bottom: 250px;
   .section-content {
@@ -47,6 +48,9 @@ h5 {
     p, h5 {
       margin-bottom: 0;
     }
+  }
+  .contact-section {
+    margin: 30px 0;
   }
 }
 

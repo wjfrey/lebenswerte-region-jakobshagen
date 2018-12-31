@@ -6,7 +6,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: 100%;
   h2 {
-    color: #B77745;
+    color: $heading;
   }
 }
 .about {
@@ -92,4 +92,15 @@ h5 {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+}
+.privacy {
+  margin: -30px 40px 40px;
+  text-align: right;
+  a {
+    color: $main-font-color;
+    &:hover {
+      text-decoration: none;
+      color: $heading;
+    }
+  }
 }

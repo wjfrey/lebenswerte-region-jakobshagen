@@ -1,3 +1,9 @@
+body {
+  * {
+    color: $main-font-color;
+  }
+}
+
 .no-top-margin {
   margin-top: 0;
 }

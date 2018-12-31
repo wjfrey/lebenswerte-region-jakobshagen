@@ -1,3 +1,7 @@
+h5 {
+  font-family: $body-font;
+  font-weight: 700;
+}
 .section-content {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -32,6 +36,20 @@
   background-size: 100%;
 }
 
+.contact {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546260140/verein-jakobshagen/rectangle-elements/querlement_bottom_large.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  .section-content {
+    text-align: right;
+    p, h5 {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .main-section {
   display: flex;
   align-items: top;
@@ -62,13 +80,12 @@
 .events-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165685/verein-jakobshagen/main-pictures/field.png');
 }
+.contact-image-div {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165682/verein-jakobshagen/main-pictures/lake.png');
+}
 
 .calendar {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  h5 {
-    font-family: $body-font;
-    font-weight: 700;
-  }
 }

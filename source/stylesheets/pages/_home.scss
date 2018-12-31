@@ -1,27 +1,3 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
-}
-
-.about {
-  .section-content {
-    background-size: 50%;
-  }
-}
-
 .section-content {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -29,29 +5,13 @@
     color: #B77745;
   }
 }
-
-.main-section {
-  display: flex;
-  align-items: top;
-  justify-content: space-between;
+.about {
+  .section-content {
+    background-size: 50%;
+    background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/sun_background.png');
+    background-position: right top;
+  }
 }
-
-.thin-section {
-  padding: 100px 100px 0;
-}
-
-.content-flex-item {
-  width: 45%;
-}
-
-.image-div {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 120vh;
-  width: 55%;
-}
-
 .lakepath {
   .section-content {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/lake_background.png');
@@ -62,13 +22,37 @@
 .city-house {
   .section-content {
     background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
+    background-position: center;
   }
 }
 
 .events {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
+.main-section {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.content-flex-item {
+  width: 45%;
+}
+
+.thin-section {
+  padding: 100px 100px 0;
+}
+
+.image-div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  width: 55%;
+}
 .lakepath-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165680/verein-jakobshagen/main-pictures/lakepath.png');
 }
@@ -78,6 +62,7 @@
 .events-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165685/verein-jakobshagen/main-pictures/field.png');
 }
+
 .calendar {
   margin-top: 50px;
   margin-bottom: 50px;

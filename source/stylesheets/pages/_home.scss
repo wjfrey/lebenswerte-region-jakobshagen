@@ -1,3 +1,10 @@
+.section-content {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  h2 {
+    color: #B77745;
+  }
+}
 .about {
   .section-content {
     background-size: 50%;
@@ -5,13 +12,24 @@
     background-position: right top;
   }
 }
+.lakepath {
+  .section-content {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/lake_background.png');
+  background-position: center;
+  }
+}
 
-.section-content {
+.city-house {
+  .section-content {
+    background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
+    background-position: center;
+  }
+}
+
+.events {
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  h2 {
-    color: #B77745;
-  }
 }
 
 .main-section {
@@ -20,12 +38,12 @@
   justify-content: space-between;
 }
 
-.thin-section {
-  padding: 100px 100px 0;
-}
-
 .content-flex-item {
   width: 45%;
+}
+
+.thin-section {
+  padding: 100px 100px 0;
 }
 
 .image-div {
@@ -43,23 +61,6 @@
 }
 .events-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165685/verein-jakobshagen/main-pictures/field.png');
-}
-
-.lakepath {
-  .section-content {
-  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/lake_background.png');
-  background-position: center;
-  }
-}
-
-.city-house {
-  .section-content {
-    background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
-  }
-}
-
-.events {
-  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
 }
 
 .calendar {

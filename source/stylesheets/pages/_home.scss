@@ -65,7 +65,7 @@
   }
 }
 
-.events.main-section {
+.events {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
 }
 
@@ -77,4 +77,13 @@
 }
 .events-image-div {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165685/verein-jakobshagen/main-pictures/field.png');
+}
+.calendar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  h5 {
+    font-family: $body-font;
+    font-weight: 700;
+  }
 }

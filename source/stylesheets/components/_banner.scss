@@ -24,3 +24,19 @@
 .banner-content {
   margin-top: 50px;
 }
+
+.navbar {
+  margin-top: 225px;
+  font-weight: 700px;
+  font-size: 25px;
+  font-family: $headers-font;
+  display: flex;
+  a {
+    color: white;
+    margin: 30px 20px;
+    &:hover {
+      text-decoration: none;
+      color: #E7CFB0;
+    }
+  }
+}

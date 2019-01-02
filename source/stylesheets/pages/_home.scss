@@ -94,10 +94,18 @@ h5 {
   text-align: center;
 }
 .privacy {
-  margin: -30px 40px 40px;
-  text-align: right;
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/sun_background.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 88% top;
+  display: flex;
+  justify-content: flex-end;
+  padding: 77px 0;
+  margin: -130px 100px 11px;
   a {
     color: $main-font-color;
+    display: block !important;
+    font-weight: 700;
     &:hover {
       text-decoration: none;
       color: $heading;

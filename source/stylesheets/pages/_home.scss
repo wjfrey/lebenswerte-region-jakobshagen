@@ -2,6 +2,10 @@ h5 {
   font-family: $body-font;
   font-weight: 700;
 }
+
+h2 {
+  margin-bottom: 50px;
+}
 .section-content {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -9,14 +13,34 @@ h5 {
     color: $heading;
   }
 }
+
+#rect_1 {
+  margin-top: -200px;
+}
+
+#rect_4 {
+  margin-top: -25px;
+}
+
+
+.rectangle {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .about {
+  margin-top: -225px;
   .section-content {
     background-size: 50%;
     background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/sun_background.png');
     background-position: right top;
+    padding-bottom: 129px;
   }
 }
 .lakepath {
+  margin-top: -263px;
   .section-content {
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/lake_background.png');
   background-position: center;
@@ -24,13 +48,17 @@ h5 {
 }
 
 .city-house {
-  .section-content {
-    background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
-    background-position: center;
-  }
+  margin-top: -330px;
+
+  background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/town_background.png');
+  background-position: -4% 20%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
 }
 
 .events {
+  margin-top: -330px;
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546165629/verein-jakobshagen/content-background-images/events_background.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -42,7 +70,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 250px;
-  padding-bottom: 250px;
+  padding-bottom: 318px;
   .section-content {
     text-align: right;
     p, h5 {
@@ -100,8 +128,8 @@ h5 {
   background-position: 88% top;
   display: flex;
   justify-content: flex-end;
-  padding: 77px 0;
-  margin: -130px 100px 11px;
+  padding: 107px 0;
+  margin: -130px 100px 0;
   a {
     color: $main-font-color;
     display: block !important;

@@ -1,7 +1,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 130vh;
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546001453/verein-jakobshagen/banner/banner_winter.png');
   background-size: cover !important;
   display: flex;
@@ -26,11 +26,12 @@
 }
 
 .navbar {
-  margin-top: 225px;
+  margin-top: 185px;
   font-weight: 700px;
   font-size: 25px;
   font-family: $headers-font;
   display: flex;
+  text-shadow: black 0 3px 8px;
   a {
     color: white;
     margin: 30px 20px;

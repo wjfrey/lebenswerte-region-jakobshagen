@@ -4,7 +4,7 @@ h5 {
 }
 
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 5vw;
 }
 .section-content {
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ h2 {
 }
 
 .thin-section {
-  padding: 100px 100px 0;
+  padding: 7vw 7vw 0;
 }
 
 .image-div {
@@ -138,5 +138,19 @@ h2 {
       text-decoration: none;
       color: $heading;
     }
+  }
+}
+
+@media only screen and (max-width: 633px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .content-flex-item {
+    width: 100%;
+  }
+  .image-div {
+    height: 80vh;
+    width: 100%;
+    order: -1;
   }
 }

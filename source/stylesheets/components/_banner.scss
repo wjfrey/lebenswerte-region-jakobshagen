@@ -1,12 +1,17 @@
 .banner {
-  color: white;
-  text-align: center;
   height: 130vh;
   background-image: url('https://res.cloudinary.com/dqxb19mjv/image/upload/v1546001453/verein-jakobshagen/banner/banner_winter.png');
   background-size: cover !important;
+  background-position: center;
+}
+
+.banner-flexbox {
+  color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
+
 .banner h1 {
   font-size: 50px;
   color: white;
@@ -38,6 +43,33 @@
     &:hover {
       text-decoration: none;
       color: #E7CFB0;
+    }
+  }
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar {
+    a {
+      margin: 30px 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-mobile {
+    display: block;
+    text-align: right;
+    i {
+      padding: 20px;
+      color: white;
+      text-shadow: gray 0 3px 8px;
     }
   }
 }

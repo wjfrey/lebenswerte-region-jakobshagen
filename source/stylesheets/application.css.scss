@@ -19,16 +19,26 @@ body {
 }
 
 #ueberuns {
-  margin: 0 80px
+  margin: -20vw 7vw 0
 }
 
 p {
   font-family: 'PT Sans Narrow', "sans-serif";
-  font-size: 18px;
+  font-size: 22px;
+}
+
+.calendar {
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 a {
   font-family: "Yanone Kaffeesatz", "Helvetica", "sans-serif";
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  list-style: none;
 }
 
 h1, h2, h3, h4, h5 {
